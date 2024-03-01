@@ -45,8 +45,8 @@ type simpleMessage struct {
 
 func myGetFunction(c *gin.Context) {
 	simpleMessage := simpleMessage{
-		Hello: "World!",
-		Message: "Subscribe to my channel!",
+		Hello: "Fuckers",
+		Message: "Welcome Fuckers",
 	}
 
 	c.IndentedJSON(http.StatusOK, simpleMessage)
